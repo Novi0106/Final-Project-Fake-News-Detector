@@ -50,13 +50,27 @@ We then use the encoded data to feed into sklearn's PassiveAggresiveClassifier w
 </p>
 
 <p align="center">
-  <img src= /Images/approach.png /> <br>
+  <img src= /5.%20Images/approach.png /> <br>
   <i> Chosen Approach </i>
 </p>
 
 
 <h2 align="center"> Key Learnings </h2>
+<p align="center">
+Initially the idea was to use the labeled data to create clusters with a Kmeans approach, but likely that would have failed. A PassiveAggresive classifier is very powerful in this case, but it would be still interesting to see whether other machine learning algorithms could serve for the model. Especially, because the mathematical logic behind the classifier was close to impossible to understand without a strong foundation in math.
 
-<h2 align="center"> Repository Structure </h2>
+Scraping German data was really a challenge, especially because fake news websites are all structured in vastly different ways with no API wrapper to scrape them. Ideally, more time for data collection could serve well to improve the the models accuracy for German news.
+  
+While the accuracy score for independent data is still strong, it would be extremely helpful to understand the right composition for the dataset a bit better, especially with respect to different writing styles. Ideally, that would mean to have a manually labelled dataset that was made on basis of an actual fact check similar to Politifacts.com.
+</p>
 
 <h2 align="center"> How to run the tool? </h2>
+<p align="center">
+Install the streamlit library in your conda environment.
+
+Download the files in <a href="https://github.com/Novi0106/Final-Project-Fake-News-Detector/tree/main/4.%20Final%20tool ">this folder</a>.
+
+Navigate to the directory where the files are stored via the terminal and enter "streamlit run App.py".
+
+This should trigger a UI to open via localhost that you can use to play with the tool.
+</p>
