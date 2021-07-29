@@ -57,7 +57,7 @@ We then use the encoded data to feed into sklearn's PassiveAggresiveClassifier w
 
 <h2 align="center"> Key Learnings </h2>
 <p align="center">
-Initially the idea was to use the labeled data to create clusters with a Kmeans approach, but likely that would have failed. A PassiveAggresive classifier is very powerful in this case, but it would be still interesting to see whether other machine learning algorithms could serve for the model. Especially, because the mathematical logic behind the classifier was close to impossible to understand without a strong foundation in math.
+Initially the idea was to use the labeled data to either used logistics regression or go down the Naive Bayes Classifiers to predict the label of a news article. However, a PassiveAggresive classifier seemed more powerful in this case (especially considering the ease of setting it up), but it would be still interesting to see whether other machine learning algorithms could serve for the model. Especially, because the mathematical logic behind the PassiveAggressive classifier was close to impossible to understand without a strong foundation in math.
 </p>
 <p align="center">
 Scraping German data was really a challenge, especially because fake news websites are all structured in vastly different ways with no API wrapper to scrape them. Ideally, more time for data collection could serve well to improve the the models accuracy for German news.
