@@ -32,7 +32,7 @@ The dataset consists of labelled articles from multiple source:
   <ol type = "1" >
          <li>4,230 German articles, scraped over 4 days using the Newscather API wrapper and BeautifulSoup and labelled based on news source</li>
          <li>44,185 labelled English articles from the  <a href="https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php">University of Victoria</a></li>
-         <li>.3,988 articles from a <a href="https://www.kaggle.com/jruvika/fake-news-detection">Kaggle Dataset</a> complemented with scraped German data to serve as an independent dataset to test the model we train</li>
+         <li>3,988 articles from a <a href="https://www.kaggle.com/jruvika/fake-news-detection">Kaggle Dataset</a> complemented with scraped German data to serve as an independent dataset to test the model we train</li>
   </ol>
 </p>
 
