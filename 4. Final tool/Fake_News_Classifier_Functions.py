@@ -52,14 +52,14 @@ def news_classification(news):
     tfidf_train = tfidf.fit_transform(X_train.astype('U')) 
     tfidf_test = tfidf.transform(X_test.astype('U'))
     
-    pac = PassiveAggressiveClassifier(max_iter = 150, shuffle = True)
-    pac.fit(tfidf_train,y_train)
+    model = PassiveAggressiveClassifier(max_iter = 150, shuffle = True)
+    model.fit(tfidf_train,y_train)
     
     #check your news against the model
     
     tfidf_test = tfidf.transform(news.astype('U'))
     
-    y_pred = pac.predict(tfidf_test)[0]
+    y_pred = model.predict(tfidf_test)[0]
     
     
     classification = y_pred
@@ -81,11 +81,11 @@ def classify_news(news):
     from sklearn.linear_model import PassiveAggressiveClassifier
     
     news = news['content']
-    tfidf, pac = setup_baseline_model()
+    tfidf, model = setup_baseline_model()
     
     tfidf_test = tfidf.transform(news.astype('U'))
     
-    y_pred = pac.predict(tfidf_test)[0]
+    y_pred = model.predict(tfidf_test)[0]
     
     
     print(f'Those news look like they are {y_pred}')
