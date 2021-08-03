@@ -67,18 +67,12 @@ While the accuracy score for independent data is still strong, it would be extre
 </p>
 
 <h2 align="center"> How to run the tool? </h2>
-<p align="center">
-Install the streamlit library in your conda environment.
-</p>
 
-<p align="center">
-Download the files in <a href="https://github.com/Novi0106/Final-Project-Fake-News-Detector/tree/main/4.%20Final%20tool ">this folder</a>.
-</p>
-
-<p align="center">  
-Navigate to the directory where the files are stored via the terminal and enter "streamlit run App.py".
-</p>
-
-<p align="center">
-This should trigger a UI to open via localhost that you can use to play with the tool.
-</p>
+<ol>
+  <li>pip install streamlit via your terminal in an environment of your choice./li>
+  <li>Download the files in <a href="https://github.com/Novi0106/Final-Project-Fake-News-Detector/tree/main/4.%20Final%20tool ">this folder</a>.</li>
+  <li>Via your terminal navigate to the directory where the files are stored via the terminal and enter "streamlit run App.py".
+</p></li>
+  <li>This should trigger a UI to open via localhost that you can use to play with the tool using free text or .txt files.</li>
+  <li>Milk</li>
+</ol>
