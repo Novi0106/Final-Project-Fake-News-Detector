@@ -74,5 +74,4 @@ While the accuracy score for independent data is still strong, it would be extre
   <li>Via your terminal navigate to the directory where the files are stored via the terminal and enter "streamlit run App.py".
 </p></li>
   <li>This should trigger a UI to open via localhost that you can use to play with the tool using free text or .txt files.</li>
-  <li>Milk</li>
 </ol>
